@@ -1,0 +1,167 @@
+body{
+    background-image: url('/img/ffundo.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+.container-header {
+    background-color:#262626;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+}
+
+.container-esquerda {
+    display: flex;
+}
+
+.container-direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-direita > ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.container-main {
+    background-size: cover;
+    background-position: center; 
+    width: 100;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+}
+
+.container-esquerda-main {
+    display: grid;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.container-esquerda-main > img {
+    opacity: 1;
+}
+.container-final-img-direita > img {
+    opacity: 1 ;
+}
+
+.container-direita-main {
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+.container-final {
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.7);
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+#container-main-esquerda-1 { 
+    background-color: rgba(0, 0, 0, 0.7);
+    grid-template-columns: repeat(2, 1fr);
+}
+.container-final-img-direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-sobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#container-sobrenos-texto {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#container-sobrenos-texto > ul {
+    list-style-type: circle;
+}
+
+#contato {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#contato h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#contato label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="tel"],
+#contato textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#contato textarea {
+    height: 100px;
+}
+
+#contato button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #0056b3;
+}
+.container-footer-final {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container-footer-final2 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    color: inherit; /* Garante que a cor do texto seja herdada */
+    transition: background-color 0.3s, border-radius 0.3s; /* Adiciona uma transição suave */
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1)
+}
